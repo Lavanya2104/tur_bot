@@ -1,0 +1,22 @@
+
+
+
+teleop_twist_keyboard:
+  ros__parameters:
+    axis_linear:
+      x: 1  # Linear motion along x-axis
+    scale_linear:
+      x: 0.5  # Speed scale for linear movement
+    scale_linear_turbo:
+      x: 1.0  # Turbo speed for linear movement
+
+    axis_angular:
+      yaw: 0  # Yaw rotation control
+    scale_angular:
+      yaw: 0.5  # Speed scale for angular rotation
+    scale_angular_turbo:
+      yaw: 1.0  # Turbo speed for angular rotation
+
+    enable_button: 6  # Button for enabling the robot
+    enable_turbo_button: 7  # Button for turbo speed
+    require_enable_button: true  # Whether the enable button is required
